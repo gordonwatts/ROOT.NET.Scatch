@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CPPBaseLibraryWrapper</id>
-    <version>1.0.0</version>
+    <version>1.0.5</version>
     <authors>Gordon</authors>
     <owners>Gordon</owners>
     <licenseUrl>http://www.nytimes.com</licenseUrl>
@@ -11,8 +11,12 @@
     <description>Test package for C++ wraper CLI distribution</description>
     <releaseNotes>THis should never show up in any search on nuget... test test test</releaseNotes>
     <copyright>Copyright 2014</copyright>
+	<dependencies>
+	  <dependency id="Baseclass.Contrib.Nuget.Output" version="1.0.7" />
+	</dependencies>
   </metadata>
 	<files>
 		<file src="Debug\CPPBaseLibraryWrapper.dll" target="lib\net45" />
+		<file src="Debug\CPPBaseLibrary.dll" target="output\CPPBaseLibrary.dll" />
 	</files>
 </package>

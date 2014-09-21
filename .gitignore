@@ -47,3 +47,5 @@ ipch/
 
 nuget.exe
 *.nupkg
+
+packages/

@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPPBaseLibraryWrapper", "CP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPPBaseLibraryConsumer", "CPPBaseLibraryConsumer\CPPBaseLibraryConsumer.csproj", "{030BC950-0666-454B-B29C-556B0E9D382C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPPBaseLibraryNugetConsumer", "CPPBaseLibraryNugetConsumer\CPPBaseLibraryNugetConsumer.csproj", "{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,18 @@ Global
 		{030BC950-0666-454B-B29C-556B0E9D382C}.Release|Win32.ActiveCfg = Release|Any CPU
 		{030BC950-0666-454B-B29C-556B0E9D382C}.Release|x86.ActiveCfg = Release|x86
 		{030BC950-0666-454B-B29C-556B0E9D382C}.Release|x86.Build.0 = Release|x86
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Debug|x86.ActiveCfg = Debug|x86
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +87,6 @@ Global
 		{33BF77AE-076D-4A2E-A997-66DC76EF0673} = {2C50D960-6CF8-42A9-BABD-0A06AEB48B5F}
 		{58B16A9B-A037-4749-A6B9-8659755A381C} = {2C50D960-6CF8-42A9-BABD-0A06AEB48B5F}
 		{030BC950-0666-454B-B29C-556B0E9D382C} = {2C50D960-6CF8-42A9-BABD-0A06AEB48B5F}
+		{A402B81E-E80A-45EA-AE0B-4FF901CB2A0D} = {2C50D960-6CF8-42A9-BABD-0A06AEB48B5F}
 	EndGlobalSection
 EndGlobal
