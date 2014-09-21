@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CPPBaseLibraryWrapper</id>
+    <version>1.0.0</version>
+    <authors>Gordon</authors>
+    <owners>Gordon</owners>
+    <licenseUrl>http://www.nytimes.com</licenseUrl>
+    <projectUrl>https://github.com/gordonwatts/ROOT.NET.Scatch</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test package for C++ wraper CLI distribution</description>
+    <releaseNotes>THis should never show up in any search on nuget... test test test</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+	<files>
+		<file src="Debug\CPPBaseLibraryWrapper.dll" target="lib\net45" />
+	</files>
+</package>
