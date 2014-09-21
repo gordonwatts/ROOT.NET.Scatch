@@ -44,3 +44,5 @@ ipch/
 *.sdf
 *.opensdf
 *.suo
+
+nuget.exe
